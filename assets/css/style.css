@@ -26,6 +26,8 @@ h1, h2 {
     width: 50px;
     padding-right: 10px;
     line-height: 80px;
+    margin-left: 20px;
+    padding-top: 10px;
 } 
 
 #logo {
@@ -82,16 +84,34 @@ ul {
 }
 
 
+#hero-outer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
 
 .hero-video {
  justify-content: center;
- width: 100%;
  height: 100vh;
+ width: 100%;
  display: flex;
  align-items: center;
  position: relative;
- flex-grow: 100%;
+ 
+ animation-name: zoom-in;
+ animation-duration:  5s ;
+ animation-fill-mode: ease;
 }
 
 
+  @keyframes zoom-in {
+    from{
+      transform: scale(1);
+    }
+    to{
+      transform: scale(1.5);
+    }
+  }
 
+/* club ethos */
+ 
