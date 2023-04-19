@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+3:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: 'Source Sans 3',  sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo-image {
+    float: left;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
