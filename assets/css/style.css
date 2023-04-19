@@ -85,18 +85,20 @@ ul {
 
 
 #hero-outer {
-    height: 100vh;
+  
     width: 100%;
     overflow: hidden;
 }
 
 .hero-video {
  justify-content: center;
- height: 100vh;
+ height: 91vh;
  width: 100%;
  display: flex;
  align-items: center;
  position: relative;
+ object-fit: cover;
+ overflow: hidden;
  
  animation-name: zoom-in;
  animation-duration:  5s ;
@@ -114,4 +116,92 @@ ul {
   }
 
 /* club ethos */
- 
+#club-ethos{
+    height: 600px;
+}
+
+#left-ethos {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    
+}
+
+
+#right-ethos {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    
+}
+
+#center-ethos {
+   width: 33%;
+   margin: 0 auto;
+
+}
+
+.left-ethos-heading {
+    width: 60%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-ethos-heading {
+    width: 60%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-ethos-heading h3 {
+    text-align: right;
+}
+
+.right-ethos-heading p {
+    text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 250%;
+}
+.center-ethos-heading {
+    width: 50%;
+    float: center;
+    align-content: center;
+    line-height: 25px;
+    clear: both;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+}
+.center-ethos-heading h3 {
+    text-align: center;
+}
+.center-ethos-heading p {
+    text-align: center;
+}
+#ethos-container {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-left: 20px;
+    width: 100%;
+    float: center;
+    margin-top: -100px;
+}
+.center-ethos-heading {
+     justify-content: center;
+     width: 500px;
+     height: 450px; 
+     border-radius: 100%;  
+     
+     
+     
+     
+}
