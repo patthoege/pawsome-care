@@ -1,4 +1,5 @@
 # PawsomeCare
+[View the live project here](https://patthoege.github.io/pawsome-care/)
 
 **PawsomeCare** is a website designed to connect pet owners with local pet sitters. Pet owners can sign up and submit their information and choose one that meets their needs. Sitters can create a profile, set their availability, and communicate with potential clients through the website.
 
@@ -22,3 +23,4 @@ Thank you for using our pet sitter website!
 
 # Conclusion
 This is a simple and user-friendly pet sitting website that offers a variety of features to make the process of finding and hiring a pet sitter easy and convenient for pet owners. The website is built using modern web technologies and can be easily customized to suit your specific needs.
+
