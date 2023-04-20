@@ -226,8 +226,17 @@ ul {
     text-align: center;
     
    /* STYLE THE PARAGRAPH BETTER */
+}
+
+.testimonial-container h1 {
+   margin: 50px 0;
    
 }
+.testimonial-container p {
+    margin: 10px 50x 20px 20px;
+    padding: 10px 5px 25px 10px;
+}
+ 
 
 /* Review layout */
  .cards div {
@@ -237,18 +246,52 @@ ul {
     box-sizing: border-box;
     padding: 50px 0 0 100px;
     text-align: center;
+    transition: 5s forward;
  }
 
+ .review img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 20px 25px rgba(167, 142, 51, 0.2) ;
+ }
 
+ .review p {
+    font-size: 15px;
+ }
 
+ .review h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* the name is too low the marginbottom isnt working */
+ }
 
+ .review i {
+    font-size: 25px;
+ }
 
+ .review:hover{
+    transform: scale(1.1);
+    z-index: 100;
+ }
 
+ /* responsive design */
 
+ @media (max-width: 768px) {
+      .cards{
+        width: 100%;
+        flex-direction: column;
+        flex-direction: wrap;
+      }
+      .review{
+        margin: 40px 0;
 
+      }
+    
+ }
 
-
-
+ 
 
 
 
