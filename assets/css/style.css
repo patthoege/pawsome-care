@@ -117,7 +117,8 @@ ul {
 
 /* club ethos */
 #club-ethos{
-    height: 600px;
+    height: 650px;
+   
 }
 
 #left-ethos {
@@ -167,7 +168,7 @@ ul {
 
 #welcome {
     text-align: center;
-    margin: 30px 0;
+    margin: 50px 0;
     font-size: 250%;
 }
 .center-ethos-heading {
@@ -205,3 +206,67 @@ ul {
     height: 300px;
     margin-top: 15px;
 }
+
+/* Testimonial section */
+/* testimonial header styling */
+#testimonial {
+    height: 800px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom , #ffffff 30%, #ffcc99 73%);
+}
+
+#testimonial-header {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 250%;
+}
+
+#testimonial-header h3 {
+    text-align: center;
+    /* IT IS NOT TARGETTING MY H3 TEXT TO CENTER BELOW THE HEADING!! */
+}
+
+/* Review layout */
+.cards div {
+    width: 30%;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align: center;
+    justify-content: center;
+    margin: 25px auto;
+    margin-left: 40px;
+}
+.cards div p {
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTES TO DO */
+
+/* NAV BAR TO STICK UP */
+
+/* CREATE A BUTTON ON A SIDE OF THE BROWSER TO GO UP AT THE BEGINNING OF THE WEBSITE */
+
+/* MAKE THE WEBSITE RESPONSIVE */
