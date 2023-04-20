@@ -185,23 +185,23 @@ ul {
 .center-ethos-heading p {
     text-align: center;
 }
-#ethos-container {
+
+#center-ethos-container {
+
+}
+
+#center-ethos-img {
     width: 300px;
     height: 300px;
-    padding: 50px;
+    padding: 30px;
     margin: 0 auto;
-    margin-left: 20px;
-    width: 100%;
     float: center;
-    margin-top: -100px;
+    background: url('../images/ethos-image.png') no-repeat center center;
 }
+
 .center-ethos-heading {
-     justify-content: center;
-     width: 500px;
-     height: 450px; 
-     border-radius: 100%;  
-     
-     
-     
-     
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    margin-top: 15px;
 }
