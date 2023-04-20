@@ -268,13 +268,36 @@ ul {
  }
 
  .review i {
-    font-size: 25px;
+    font-size: 10px;
  }
 
  .review:hover{
     transform: scale(1.1);
     z-index: 100;
  }
+
+ /* Footer section */
+
+ footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
  /* responsive design */
 
