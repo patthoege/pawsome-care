@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/* heading and logo */
+/* HEADING AND LOGO */
 
 h1, h2 {
     font-family: 'Source Sans 3',  sans-serif;
@@ -41,7 +41,7 @@ nav ul li a {
     
 }
 
-/* navigation bar links */
+/* NAVIGATION BAR LINKS */
 
 #menu {
     font-size: 110%;
@@ -107,7 +107,6 @@ ul {
  animation-fill-mode: ease;
 }
 
-
   @keyframes zoom-in {
     from{
       transform: scale(1);
@@ -117,7 +116,6 @@ ul {
     }
   }
 
-  /* CORRECT the text is at the back of the video, position of its parent is relative and the content is absolute, still not working as it should */
   .text-content {
     display: flex;
     justify-content: flex-end;
@@ -164,7 +162,7 @@ ul {
     
   }
 
-/* club ethos */
+/* CLUB ETHOS SECTION */
 #club-ethos{
     height: 680px;
    
@@ -176,7 +174,6 @@ ul {
     float: left;
     
 }
-
 
 #right-ethos {
     padding-top: 30px;
@@ -207,7 +204,6 @@ ul {
     text-align: left;
 }
 
-
 .right-ethos-heading {
     width: 60%;
     float: left;
@@ -229,18 +225,19 @@ ul {
     margin: 50px 0;
     font-size: 250%;
 }
+
 .center-ethos-heading {
     width: 50%;
     float: center;
     align-content: center;
     line-height: 25px;
     clear: both;
-    /* margin-top: 10px; */
-    /* margin-left: 10px; */
 }
+
 .center-ethos-heading h3 {
     text-align: center;
 }
+
 .center-ethos-heading p {
     text-align: center;
 }
@@ -261,14 +258,11 @@ ul {
     margin-top: 15px;
 }
 
-/* Testimonial section */
-
+/* TESTIMONIAL SECTION */
 #testimonial {
     height: 800px;
     background: linear-gradient(to bottom, #ffffff 30%, #ffcc99 73%);
     margin: 0 auto;
-
-    
 }
 
 .testimonial-container > h1 ,h3 , p {
@@ -280,13 +274,14 @@ ul {
    font-size: 220%;
    text-align: center;
 }
+
 .testimonial-container p {
     margin: 10px 50x 20px 20px;
     padding: 10px 5px 25px 10px;
 }
  
 
-/* Review layout */
+/* REVIEW LAYOUT */
  .cards div {
     width: 30%;
     height: 300px;
@@ -324,42 +319,6 @@ ul {
     z-index: 100;
  }
 
- /* Footer section */
-
- footer {
-    height: 150px;
-
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
- /* responsive design */
-
- @media (max-width: 768px) {
-      .cards{
-        width: 100%;
-        flex-direction: column;
-        flex-direction: wrap;
-      }
-      .review{
-        margin: 40px 0;
-
-      }
- }
 
  /* SIGN UP SECTION */
 .first-form {
@@ -393,10 +352,12 @@ ul {
     left: 15%;
     padding: 30px;
 }
+
 .register h1 {
     margin-bottom: 10px;
     color: #fff;
 }
+
 .register p {
     margin-bottom: 20px;
     color: #fff;
@@ -429,7 +390,6 @@ ul {
  }
   
  .register button{
-    
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -440,7 +400,6 @@ ul {
     background: transparent;
     cursor: pointer;
     color: #fafafa;
-    
   }
    
   .register button:hover {
@@ -487,7 +446,89 @@ ul {
     font-size: 15px;
   }
 
+  /* FOOTER SECTION */
 
+.footer {
+    padding: 40px 0;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+ }
+
+ .social-networks {
+    text-align: center;
+    padding-bottom: 25px;
+ }
+ 
+ .social-networks a {
+    font-size: 20px;
+    color: rgba(0, 0, 30, 2);
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 30, 2);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 10px;
+    opacity: 0.65;
+ }
+
+ .social-networks a:hover {
+    opacity: 0.9;
+    color: rgba(149, 124, 33, 0.8);
+
+ }
+
+ .list {
+    text-align: center;
+    list-style-type: none;
+ }
+
+ .list a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    opacity: 0.65;
+ }
+
+ .list a:hover {
+    opacity: 0.9;
+    color: rgba(149, 124, 33, 0.8);
+
+ }
+
+ .list li {
+    display: inline-block;
+    margin: 0 15px;
+    padding-bottom: 15px;
+ }
+
+ .copyright {
+    font-size: 14px;
+    color: #aaa;
+ }
+
+ .copyright i {
+    font-size: 12px;
+   
+ }
+
+  /* RESPONSIVE DESIGN */
+
+  @media (max-width: 768px) {
+    .cards{
+      width: 100%;
+      flex-direction: column;
+      flex-direction: wrap;
+    }
+    .review{
+      margin: 40px 0;
+
+    }
+}
 
  
 
