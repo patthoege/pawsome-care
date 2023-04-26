@@ -13,6 +13,13 @@ body {
 }
 
 /* HEADING AND LOGO */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  }
 
 h1, h2 {
     font-family: 'Source Sans 3',  sans-serif;
@@ -137,7 +144,6 @@ ul {
     background-color: rgba(10, 9, 4, 0.2);
     font-size: 130%;
     font-family: 'Source Sans 3',  sans-serif;
-    /* box-shadow:  -15px -20px 25px -5px rgba(185, 165, 95, 0.2) ; */
   }
 
   .header-content {
