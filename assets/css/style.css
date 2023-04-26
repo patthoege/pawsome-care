@@ -273,13 +273,12 @@ ul {
 
 .testimonial-container > h1 ,h3 , p {
     text-align: center;
-    
-   /* STYLE THE PARAGRAPH BETTER */
 }
 
-.testimonial-container h1 {
+.testimonial-container h2 {
    margin: 50px 0;
-   
+   font-size: 220%;
+   text-align: center;
 }
 .testimonial-container p {
     margin: 10px 50x 20px 20px;
@@ -387,13 +386,6 @@ ul {
 .register {
     margin: 150px 10% 0 0;
     color: #fff;
-    /* background-color: rgba(167, 142, 51, 0.3);
-    max-width: 550px;
-    position: absolute;
-    top: -80px;
-    left: 210px;
-    padding: 30px; */
-
     background-color: rgba(10, 9, 4, 0.5);
     max-width: 550px;
     position: absolute;
