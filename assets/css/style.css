@@ -364,12 +364,7 @@ ul {
 
  /* SIGN UP SECTION */
 .first-form {
-    /* clear: left; */
     background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
-    /* background-size: cover;
-    background-position: center;
-    height: 900px; */
-
     position: relative;
     width: 100%;
     background-size: cover;
@@ -459,6 +454,45 @@ ul {
   .register button:hover {
     background-color: rgba(149, 124, 33, 0.8);
     
+  }
+
+  /* THANK YOU PAGE */
+
+  .container {
+    background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thank-container {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(10, 9, 4, 0.5);
+    max-width: 550px;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    padding: 30px;
+  }
+
+  .thank-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .thank-container p {
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
   }
 
 
