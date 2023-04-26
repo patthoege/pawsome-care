@@ -93,7 +93,6 @@ ul {
 /* HERO CONTENT */
 
 #hero-outer {
-  
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -288,22 +287,31 @@ ul {
  
 
 /* REVIEW LAYOUT */
- .cards div {
-    width: 30%;
-    height: 300px;
-    float: left;
-    box-sizing: border-box;
-    padding: 50px 0 0 100px;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
     text-align: center;
-    transition: 5s forward;
+ }
+
+ .review {
+    width: 30%;
+    text-align: center;
  }
 
  .review img {
     height: 300px;
-    width: 450px;
-    position: relative;
-    border-radius: 10px;
-    box-shadow: 10px 20px 25px rgba(167, 142, 51, 0.2) ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 2%;
+    box-shadow: 10px 20px 25px rgba(167, 142, 51, 0.2);
+    opacity: 0.75;
+ }
+
+ .review img:hover {
+    opacity: 1;
  }
 
  .review p {
@@ -311,20 +319,13 @@ ul {
  }
 
  .review h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    /* the name is too low the marginbottom isnt working */
+    font-size: 18px;
  }
 
- .review i {
+ .review p i {
     font-size: 10px;
+    color: #957c21;
  }
-
- .review:hover{
-    transform: scale(1.1);
-    z-index: 100;
- }
-
 
  /* SIGN UP SECTION */
 .first-form {
@@ -547,9 +548,5 @@ ul {
 
 
 /* NOTES TO DO */
-
-/* NAV BAR TO STICK UP */
-
-/* CREATE A BUTTON ON A SIDE OF THE BROWSER TO GO UP AT THE BEGINNING OF THE WEBSITE */
 
 /* MAKE THE WEBSITE RESPONSIVE */
