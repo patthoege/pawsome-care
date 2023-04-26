@@ -348,24 +348,46 @@ ul {
 
  /* SIGN UP SECTION */
 .first-form {
-    clear: left;
+    /* clear: left; */
     background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
+    /* background-size: cover;
+    background-position: center;
+    height: 900px; */
+
+    position: relative;
+    width: 100%;
     background-size: cover;
     background-position: center;
     height: 900px;
+    display: flex;
 }
 
 .second-form {
     position: absolute;
+
+    display: flex;
+    top: 12%;
+    left: 35%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
 }
+
 .register {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(167, 142, 51, 0.3);
+    /* background-color: rgba(167, 142, 51, 0.3);
     max-width: 550px;
     position: absolute;
     top: -80px;
     left: 210px;
+    padding: 30px; */
+
+    background-color: rgba(10, 9, 4, 0.5);
+    max-width: 550px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
     padding: 30px;
 }
 .register h1 {
@@ -389,10 +411,39 @@ ul {
     border-radius: 2px;
 }
 
+.input-container {
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
 .text-input:hover {
     border-color: #f7e7ad;
  }
   
+ .register button{
+    
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 2px 0;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #957c21;
+    background: transparent;
+    cursor: pointer;
+    color: #fafafa;
+    
+  }
+   
+  .register button:hover {
+    background-color: rgba(149, 124, 33, 0.8);
+    
+  }
 
 
 
