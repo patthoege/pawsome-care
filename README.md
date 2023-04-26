@@ -1,4 +1,4 @@
-# PawsomeCare
+# PawsomeCare is awesome care
 [View the live project here](https://patthoege.github.io/pawsome-care/)
 
 **PawsomeCare** is a website designed to connect pet owners with local pet sitters. Pet owners can sign up and submit their information and choose one that meets their needs. Sitters can create a profile, set their availability, and communicate with potential clients through the website.
