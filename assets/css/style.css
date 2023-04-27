@@ -168,99 +168,85 @@ ul {
   }
 
 /* CLUB ETHOS SECTION */
-#club-ethos{
-    height: 680px;
+#club-ethos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#welcome {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+#ethos-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+#left-ethos, #right-ethos, #center-ethos {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-top: 50px 0;
    
 }
-
 #left-ethos {
+    display: flex;
+   
     padding-top: 30px;
     width: 33%;
-    float: left;
-    
 }
-
-#right-ethos {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    
-}
-
-#center-ethos {
-   width: 33%;
-   margin: 0 auto;
-
-}
-
 .left-ethos-heading {
-    width: 60%;
-    float: right;
+    display: inline-block;
     line-height: 25px;
-    clear: both;
     margin-bottom: 50px;
+    width: 60%;
+    margin-left: auto;
+  
 }
-
 .left-ethos-heading h3 {
-    text-align: left;
+    text-align: right;
 }
-
 .left-ethos-heading p {
-    text-align: left;
-}
-
-.right-ethos-heading {
-    width: 60%;
-    float: left;
-    line-height: 25px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-ethos-heading h3 {
     text-align: right;
-}
-
-.right-ethos-heading p {
-    text-align: right;
-}
-
-#welcome {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 250%;
-}
-
-.center-ethos-heading {
-    width: 50%;
-    float: center;
-    align-content: center;
-    line-height: 25px;
-    clear: both;
-}
-
-.center-ethos-heading h3 {
-    text-align: center;
-}
-
-.center-ethos-heading p {
-    text-align: center;
 }
 
 #center-ethos-img {
+    background: url(../images/ethos-image.png) no-repeat center center;
+    background-size: contain;
     width: 300px;
     height: 300px;
     padding: 30px;
     margin: 0 auto;
-    float: center;
-    background: url('../images/ethos-image.png') no-repeat center center;
-}
+    margin-bottom: 20px;
+} 
 
-.center-ethos-heading {
-    margin: 0 auto;
-    width: 400px;
-    height: 300px;
-    margin-top: 15px;
+#right-ethos {
+    display: inline;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-top: 30px;
+    width: 33%;
+    
+}
+.right-ethos-heading {
+    line-height: 25px;
+    margin-bottom: 50px;
+    width: 60%;
+    margin-bottom: 50px;
+   
+}
+.right-ethos-heading h3 {
+    text-align: left;
+}
+.right-ethos-heading  p {
+    text-align: left;
 }
 
 /* TESTIMONIAL SECTION */
