@@ -38,14 +38,14 @@
 
 
 
-      <section class="first-form">
-        <div class="register">
+      <section class="register ">
+         <div class="first-form ">
           <h1>Sign Up</h1>
           <p>To get started, please fill out the form below.</p>
           <form id="register" action="post">
             
             <label for="fname">First Name : </label>
-            <input type="text" name="fname" id="fname" placeholder="Enter your last name" class="text-input" required>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name" class="text-input" required>
             <br>
             <label for="lname">Last Name : </label>
             <input type="text" name="lname" id="lname" placeholder="Enter your last name" class="text-input" required>
@@ -57,13 +57,12 @@
             <input type="email" name="email_address" id="email" placeholder="Enter your full address" class="text-input" required>
             <br>
             <label for="phonenumber">Phone Number : </label>
-            <input type="text" name="phonenumber" id="phonenumber" placeholder="Enter your phonenumber" class="text-input">
+            <input type="text" name="phonenumber" id="phonenumber" placeholder="Enter your phone number" class="text-input">
           </form>
-        </div>
-      </section>
-
-      <section class="second-form">
-        <div class="register">
+         </div>
+     
+      <div class="second-form">
+        <div>
           <label for="animal">Type of Animal : </label>
             <br>
             <input type="radio" name="animal" id="animal" value="animal" required>
@@ -73,7 +72,6 @@
             <input type="radio" name="animal" id="animal" value="animal" required>
             <label for="animal">Both</label>
             <br>
-
             <label for="service">Type of Service</label>
             <br>
             <input type="checkbox" id="service"  name="service" value="service">
@@ -99,14 +97,17 @@
             <br>
             <label for="instruction">Additional comments or intructions:</label>
             <br>
-            <textarea name="instruction" id="instruction" placeholder="Please provide us any further instructions or special requirements you may have to ensure that your pets are happy, healthy, and comfortable while you're away." rows="10" cols="55"  class="text-input"></textarea>
+            <textarea name="instruction" id="instruction" placeholder="Please provide us any further instructions or special requirements you may have to ensure that your pets are happy, healthy, and comfortable while you're away." rows="10" cols="55"  class="input-container"></textarea>
             <br>
             <div>
-              <form action="thankyou.html">
-                <button type="submit">Sign Up Now</button>
-             </form>
+          <form action="thankyou.html">
+            <button type="submit">Sign Up Now</button>
+         </form>
+
         </div>
-      </section>
+        </div>
+      </div>
+     </section>
 
       <footer class="footer">
         <div class="social-networks">
@@ -121,9 +122,6 @@
           </li>
           <li>
             <a href="#club-ethos">Services</a>
-          </li>
-          <li>
-            <a href="index.html">Sitters</a>
           </li>
           <li>  
             <a href="signup.html">Sign Up</a>

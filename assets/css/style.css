@@ -128,12 +128,13 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    flex-wrap: wrap;
   
     position: absolute;
     box-sizing: border-box;
     
-    top: 25%;
-    left: 25%;
+    top: 35%;
+    left: 30%;
     width: 42%;
     padding: 10px 0;
     border-radius: 4px;
@@ -170,94 +171,76 @@ ul {
 /* CLUB ETHOS SECTION */
 #club-ethos {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
+    justify-content: center;
+    height: 100%;
 }
 #welcome {
+    margin: 80px;
+    font-size: 220%;
+}
+
+#ethos-wrapper {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
     
+  }
+#ethos-img {
+    background: url(../images/ethos-image.png);
+    background-position: right;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-size: 500px 500px;
+    height: 480px;
+    width: 540px;
+    margin: 30px;
 }
-
-#ethos-container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    width: 100%;
-}
-
-
-#left-ethos, #right-ethos, #center-ethos {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin-top: 50px 0;
-   
-}
-#left-ethos {
-    display: flex;
-   
-    padding-top: 30px;
-    width: 33%;
-}
-.left-ethos-heading {
-    display: inline-block;
-    line-height: 25px;
-    margin-bottom: 50px;
-    width: 60%;
-    margin-left: auto;
+.bg-color {
+    padding: 15px;
+    background-color: rgba(10, 9, 4, 0.3);
+    height: 480px;
+    width: 540px;
+    border-radius: 20px;
+  }
   
-}
-.left-ethos-heading h3 {
-    text-align: right;
-}
-.left-ethos-heading p {
-    text-align: right;
-}
+#services {
+    display: flex;
 
-#center-ethos-img {
-    background: url(../images/ethos-image.png) no-repeat center center;
-    background-size: contain;
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-} 
-
-#right-ethos {
-    display: inline;
-    flex-direction: row-reverse;
+  }
+  
+.service {
+    display: flex;
     justify-content: flex-end;
-    padding-top: 30px;
-    width: 33%;
+    flex-direction: column;
+    margin: auto 0;
+  }
+
+
+.service h3 {
+    text-shadow: 0px 2px 4px rgba(167, 142, 51, 0.3);
+    text-align: center;
+    line-height: 45px;
+    color: #252525;
     
 }
-.right-ethos-heading {
-    line-height: 25px;
-    margin-bottom: 50px;
-    width: 60%;
-    margin-bottom: 50px;
-   
-}
-.right-ethos-heading h3 {
-    text-align: left;
-}
-.right-ethos-heading  p {
-    text-align: left;
-}
+
+.service p {
+    text-align: center;
+} 
 
 /* TESTIMONIAL SECTION */
 #testimonial {
     height: 800px;
     background: linear-gradient(to bottom, #ffffff 30%, #ffcc99 73%);
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .testimonial-container > h1 ,h3 , p {
     text-align: center;
+    
 }
 
 .testimonial-container h2 {
@@ -268,7 +251,8 @@ ul {
 
 .testimonial-container p {
     margin: 10px 50x 20px 20px;
-    padding: 10px 5px 25px 10px;
+    padding: 10px 10px 5px 10px;
+    font-size: 120%;
 }
  
 
@@ -277,7 +261,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 100px;
     text-align: center;
  }
 
@@ -287,7 +271,7 @@ ul {
  }
 
  .review img {
-    height: 300px;
+    height: 360px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -314,48 +298,48 @@ ul {
  }
 
  /* SIGN UP SECTION */
-.first-form {
+ .register { 
+   display: flex;
+    flex-wrap: wrap;  
+    align-items: center; 
+    justify-content: space-evenly;
     background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
-    position: relative;
-    width: 100%;
     background-size: cover;
     background-position: center;
-    height: 900px;
-    display: flex;
-}
-
-.second-form {
-    position: absolute;
-
-    display: flex;
-    top: 12%;
-    left: 35%;
     width: 100%;
-    justify-content: center;
-    align-content: center;
+    height: 900px;   
 }
 
-.register {
-    margin: 150px 10% 0 0;
+.first-form {
+    margin: 120px 0;
     color: #fff;
     background-color: rgba(10, 9, 4, 0.5);
-    max-width: 550px;
-    position: absolute;
+    width: 20%;
     top: 5%;
     left: 15%;
     padding: 30px;
+    height: 60%;
 }
-
-.register h1 {
-    margin-bottom: 10px;
+.first-form h1 {
     color: #fff;
 }
-
-.register p {
+.first-form  p {
+    margin-top: 10px;
     margin-bottom: 20px;
     color: #fff;
     text-align: left;
     font-size: 15px;
+}
+
+.second-form {
+    margin: 150px 0;
+    color: #fff;
+    background-color: rgba(10, 9, 4, 0.5);
+    width: 25%;
+    top: 12px;
+    left: 50%;
+    padding: 30px;
+    height: 60%;
 }
 
 .text-input {
@@ -382,7 +366,7 @@ ul {
     border-color: #f7e7ad;
  }
   
- .register button{
+.second-form button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -395,16 +379,15 @@ ul {
     color: #fafafa;
   }
    
-  .register button:hover {
+  .second-form button:hover {
     background-color: rgba(149, 124, 33, 0.8);
-    
   }
 
   /* THANK YOU PAGE */
 
   .container {
     background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
-    position: relative;
+    
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -416,13 +399,15 @@ ul {
   }
 
   .thank-container {
-    margin: 150px 10% 0 0;
+    
+    justify-content: center;
+    margin: auto 0;
     color: #fff;
     background-color: rgba(10, 9, 4, 0.5);
-    max-width: 550px;
-    position: absolute;
+    max-width: 710px;
     top: 15%;
-    width: 100%;
+    left: 30%;
+    width: 50%;
     padding: 30px;
   }
 
@@ -510,21 +495,46 @@ ul {
    
  }
 
-  /* RESPONSIVE DESIGN */
+  /* BREAKPOINTS*/
+  @media screen and (max-width: 1655px) {
 
-  @media (max-width: 768px) {
-    .cards{
-      width: 100%;
-      flex-direction: column;
-      flex-direction: wrap;
+    .review img {
+    height: 320px;
+     
     }
-    .review{
-      margin: 40px 0;
+ }
 
+  @media screen and (max-width: 1400px) {
+
+    .text-content {
+        justify-content: center;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 110%;
     }
+    .review img {
+        height: 300px;
+    }
+ }
+ @media screen and (max-width: 1260px) {
+    .text-content {
+        padding: 15px 0;
+        margin: auto 0;
+    }
+    .review img {
+        height: 275px;
+    }
+    #ethos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 0 auto;  
+        width: 100;  
+    }      
+   
+   
+    
 }
-
- 
 
 
 
