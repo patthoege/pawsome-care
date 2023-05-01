@@ -39,7 +39,7 @@
 
 
       <section class="register ">
-         <div class="first-form ">
+         <div class="form ">
           <h1>Sign Up</h1>
           <p>To get started, please fill out the form below.</p>
           <form id="register" action="post">
@@ -58,10 +58,30 @@
             <br>
             <label for="phonenumber">Phone Number : </label>
             <input type="text" name="phonenumber" id="phonenumber" placeholder="Enter your phone number" class="text-input">
+            <br>
+            <label for="animal">Type of Animal : </label>
+            <br>
+            <input type="radio" name="animal" id="animal" value="animal" required>
+            <label for="animal">Dog</label>
+            <input type="radio" name="animal" id="animal" value="animal" required>
+            <label for="animal">Cat</label>
+            <input type="radio" name="animal" id="animal" value="animal" required>
+            <label for="animal">Both</label>
+            <br>
+            <label for="instruction">Additional comments or intructions:</label>
+            <br>
+            <textarea name="instruction" id="instruction" placeholder="Please provide us any further instructions or special requirements you may have to ensure that your pets are happy, healthy, and comfortable while you're away." rows="10" cols="55"  class="input-container"></textarea>
+            <br>
+            <div>
+          <form action="thankyou.html">
+            <button type="submit">Sign Up Now</button> 
+          </form>
+
+
           </form>
          </div>
      
-      <div class="second-form">
+      <!-- <div class="second-form">
         <div>
           <label for="animal">Type of Animal : </label>
             <br>
@@ -95,7 +115,7 @@
             <label for="end-date">End Date and Time</label>
             <input type="datetime-local" id="end-date" name="start-date" min="2023-04-21" max="2023-12-31" class="text-input">
             <br>
-            <label for="instruction">Additional comments or intructions:</label>
+            <label for="instruction">Additional comments or instructions:</label>
             <br>
             <textarea name="instruction" id="instruction" placeholder="Please provide us any further instructions or special requirements you may have to ensure that your pets are happy, healthy, and comfortable while you're away." rows="10" cols="55"  class="input-container"></textarea>
             <br>
@@ -106,7 +126,7 @@
 
         </div>
         </div>
-      </div>
+      </div> -->
      </section>
 
       <footer class="footer">

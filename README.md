@@ -50,8 +50,7 @@ It should be noted that the website provides information about the different typ
 
 ### New User Goals
 1. Easily navigate the site and clearly understand the information provided.
-2. Find relevant and up-to-date information.
-3. Be captivated by a visually striking design that captures their immediate interest and keeps them engaged on the site.
+2. Be captivated by a visually striking design that captures their immediate interest and keeps them engaged on the site.
 
 ## Design
 
@@ -70,32 +69,36 @@ The website features imagery, including the Hero video, that was sourced from fr
 ### Navigation Bar
 This is a CSS stylesheet for a website with a fixed header. The font family used is Poppins for the body and Source Sans 3 for the headings. The logo is floated to the left and the menu items are to the right. 
 
-The hero section has a video and a text content box with a button. The animation zooms in on the video.
+The hero section has a video and a text content box with a sign-up button. The animation zooms in on the video.
 
-Below the hero section is a club ethos section, divided into three columns. The headings are left-aligned or right-aligned depending on the column. The center column contains a centered heading, a paragraph, and an image.
+### Services
+Below the hero section is a club ethos section, divided into two columns. The left-side is an image and on the right side is the list of services and its description.
 
 The font size and color scheme are consistent throughout the website, with white text on a dark, transparent background. The color scheme is primarily black, white, and shades of yellow. There are hover effects on some elements, such as the menu items and the button in the hero section.
+
+
+### Testimonies
+
+
+
 
 
 
 
 
 ## Getting Started
-To use the website, simply navigate to the homepage and start browsing available pet sitters in your area. You can filter results by location, availability, and type of pet. When you find a sitter you're interested in, you can send them a message through the website to arrange a meeting and discuss your pet's needs.
-To create a sitter profile, click on the "Create Account" button in the top right corner of the screen. You'll be prompted to enter some basic information about yourself and your experience with pets. You can also upload a profile picture and set your availability.
+To use the website, simply navigate to the homepage and start browsing to see what kind of services from our private professional sitter are available to book. You can sign-up for the form by providing the username, email, phone number, location, availability, type of pet and specific instructions. When we find you a pet sitter who meets your pet's need, you'll receive an email confirmation and will proceed with the communication through Whatsapp to discuss further points from your pet's needs.
+
 
 ### Features
-* Browse Pet Sitters: Pet owners can browse a list of available sitters in their area and filter results by location, availability, and type of pet.
-* Sitter Profiles: Sitters can create a profile, set their availability, and upload a profile picture. They can also respond to messages from potential clients and arrange meetings.
-* Messaging System: Pet owners can send messages to sitters through the website to discuss their pet's needs and arrange a meeting.
-* Ratings and Reviews: Pet owners can leave ratings and reviews for sitters they've used in the past, which can help other pet owners choose a sitter that's right for them.
+* Messaging System: Pet owners can send messages to sitters through emails or Whatsapp to discuss their pet's needs and arrange a meeting.
 
 # Technologies Used
-The website is built using HTML and CSS on the front end. We also use third-party APIs to provide location-based search results and messaging functionality.
+The website is built using HTML and CSS on the front end. 
 
 # Contributors
 This website was created by **Patricia Hoege** as a project for my first project based on HTML and CSS Language. 
-Thank you for using our pet sitter website!
+
 
 # Conclusion
 This is a simple and user-friendly pet-sitting website that offers a variety of features to make the process of finding and hiring a pet sitter easy and convenient for pet owners. The website is built using modern web technologies and can be easily customized to suit your specific needs.
