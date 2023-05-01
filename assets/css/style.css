@@ -83,7 +83,6 @@ nav ul li a {
     border-top: 1px solid #957c21;
     border-bottom: 1px solid #957c21;
     color: #957c21;
-
 }
 
 ul {
@@ -240,6 +239,9 @@ ul {
     background: linear-gradient(to bottom, #ffffff 30%, #ffcc99 73%);
     margin: 0 auto;
     margin-top: 100px;
+   
+   
+    
 }
 
 .testimonial-container > h1 ,h3 , p {
@@ -251,6 +253,7 @@ ul {
    margin: 50px 0;
    font-size: 220%;
    text-align: center;
+   
 }
 
 .testimonial-container p {
@@ -506,7 +509,7 @@ ul {
 
   @media screen and (max-width: 1655px) {
     .review img {
-    height: 320px;
+    max-height: 320px;
     }
  }
 
@@ -532,9 +535,10 @@ ul {
         text-align: center;
         padding: 15px 0;
         font-size: 110%;
+        min-width: 42%;
     }
     .review img {
-        height: 300px;
+        max-height: 300px;
     }
  }
 
@@ -546,17 +550,48 @@ ul {
     .review img {
         height: 275px;
     }
+    .first-form {
+      
+    }
+    .second-form {
+       
+    }
 }
 
+ @media screen and (max-width: 1205px){ 
+    .text-content {
+         min-width: 50%;
+     }
+
+    }
+
 @media screen and (max-width: 1170px) {
+   
+
     .cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 40px;
-        padding: 15px;
+        
     }
+    .review {
+            min-width: 50%;
+        }
+    
     }
-
-
+@media screen and (max-width: 980px) {
+     #menu {
+      clear: left;
+      float: left;
+      line-height: 20px;
+      margin-left: 5px;
+      margin-bottom: 20px;
+     
+    }
+    #menu li {
+        margin-right: 5px;
+    }
+    
+}
 
