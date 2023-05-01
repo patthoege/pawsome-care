@@ -632,7 +632,8 @@ ul {
         max-width: 450px;
     }
 }
-
+  
+/* FROM 320PX TO 540PX THERE IS A BACKGROUND LAYOUT SHRINK  */
 
 
 @media screen and (max-width: 320px) {
