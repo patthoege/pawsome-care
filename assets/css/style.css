@@ -45,7 +45,6 @@ nav ul li a {
     font-size: 15px;
     text-transform: uppercase;
     margin-left: 30px;
-    
 }
 
 /* NAVIGATION BAR LINKS */
@@ -54,8 +53,6 @@ nav ul li a {
     font-size: 110%;
     letter-spacing: 2px;
     margin-right: 25px;
-    
-
 }
 
 #menu, #logo, #logo-image {
@@ -164,7 +161,6 @@ ul {
    
   .text-content button:hover {
     background-color: rgba(149, 124, 33, 0.8);
-    
   }
 
 /* CLUB ETHOS SECTION */
@@ -174,9 +170,10 @@ ul {
     flex-wrap: wrap;  
     justify-content: center;
     align-items: center;
-    min-height: 100%;
-    min-width: 100%;
+    height: 100%;
+    width: 100%;
 }
+
 #welcome {
     display: flex;
     justify-content: center;
@@ -184,36 +181,33 @@ ul {
     margin: 80px;
     font-size: 220%;
 }
+
 #ethos-wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    max-width: 100%;
     flex-wrap: wrap;
+    max-width: 100%;
+    margin: 10px;
   }
+
 #ethos-img {
-    background: url(../images/ethos-image.png);
-    background-position: right;
+    background: url(../images/ethos-image.jpg);
+    background-position: center;
     background-size: contain; 
     background-repeat: no-repeat; 
-    min-height: 480px;
-    min-width: 540px;
+    height: 540px;
+    width: 540px;
     margin: 30px;
 }
 
 .bg-color {
-
-    
-
     padding: 15px;
     background-color: rgba(10, 9, 4, 0.3);
-    max-height: 480px;
+    max-height: 520px;
     max-width: 540px;
     border-radius: 20px;
   }
-  
-/* #services {
-    display: flex;
-  } */
   
 .service {
     display: flex;
@@ -236,9 +230,10 @@ ul {
 /* TESTIMONIAL SECTION */
 #testimonial {
     height: 100%;
+    min-width: 100%;
     background: linear-gradient(to bottom, #ffffff 30%, #ffcc99 73%);
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .testimonial-container > h1 ,h3 , p {
@@ -254,7 +249,6 @@ ul {
 .testimonial-container p {
     display: flex;
     flex-direction: column;
-    /* margin: 10px 50x 20px 20px; */
     padding: 10px 10px 5px 10px;
     font-size: 120%;
 }
@@ -268,6 +262,7 @@ ul {
     justify-content: space-evenly;
     margin-top: 100px;
     text-align: center;
+   
  }
 
  .review {
@@ -320,7 +315,6 @@ ul {
     color: #fff;
     background-color: rgba(10, 9, 4, 0.5);
     max-width: 100%;
-    /* min-width: 20%; */
     top: 5%;
     left: 15%;
     padding: 30px;
@@ -382,7 +376,6 @@ ul {
 
   .container {
     background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
-    
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -394,7 +387,6 @@ ul {
   }
 
   .thank-container {
-    
     justify-content: center;
     margin: auto 0;
     color: #fff;
@@ -452,13 +444,11 @@ ul {
     opacity: 0.9;
     color: rgba(149, 124, 33, 0.8);
     border: rgba(149, 124, 33, 0.8);
-
  }
 
  .list {
     text-align: center;
     list-style-type: none;
-   
  }
 
  .list a {
@@ -493,13 +483,13 @@ ul {
 
   /* BREAKPOINTS*/
 
-  @media screen and (max-width: 1655px) {
+@media screen and (max-width: 1655px) {
     .review img {
     max-height: 320px;
     }
- }
+ } 
 
- @media screen and (max-width: 1465px) {
+  @media screen and (max-width: 1465px) {
     #ethos-wrapper {
         display: flex;
         align-items: center;
@@ -546,7 +536,6 @@ ul {
 @media screen and (max-width: 1170px) {
     #ethos-wrapper {
         display: flex;
-        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }
@@ -556,10 +545,9 @@ ul {
         align-items: center;
         margin-top: 40px;
        
-        
     }
     .review {
-         min-width: 50%;
+         min-width: 40%;
         }
     }
 
@@ -593,27 +581,33 @@ ul {
     .testimonial-container p {
         font-size: 100%;
     }
+    .review {
+        min-height: 350px;
+        min-width: 400px;
+    }
     .form {
         margin: 125px 0;
     }
-    
-    
-}
-@media screen and (max-width: 650px) {
+ }
+
+ @media screen and (max-width: 650px) {
     .text-content {
         max-width: 60%;
     }
     .text-content button {
         min-width: 120px;
     }
-    .review {
-        min-width: 60%;
+    #ethos-img {
+        max-height: 350px;
+        max-width: 400px;
+    }
+    .bg-color {
+        width: 80%;
+        border-radius: 60px;
     }
 }
 
-
 @media screen and (max-width: 540px) {
-
     .bg-color {
         max-height: 100%;
         max-width: 450px;
@@ -625,57 +619,55 @@ ul {
 
 @media screen and (max-width: 455px) {
     .form {
-           
-            max-height: 80%;
-            font-size: 70%;
-        }
-        #logo-image {
-            width: 45px;
-        }
-        #logo {
-            font-size: 220%;
-       }
-        #menu li a {
-            display: flex;
-            font-size: 70%;
-            margin-left: 20px;
-           }
-           .social-networks a {
-            font-size: 18px;
-         }
-        .list li a {
-            font-size: 15px;
-            margin: 0 px;
-        }
+    max-height: 80%;
+    font-size: 70%;
     }
+    #logo-image {
+     width: 45px;
+    }
+    #logo {
+      font-size: 220%;
+    }
+    #menu li a {
+     display: flex;
+     font-size: 70%;
+     margin-left: 20px;
+    }
+    .review {
+        min-height: 90%;
+        min-width: 90%;
+    }
+    .social-networks a {
+    font-size: 18px;
+    }
+    .list li a {
+    font-size: 15px;
+    margin: 0 px;
+    }
+}
 
-    @media screen and (max-width: 375px) {
-        #logo-image {
-            margin-top: 5px;
-                   width: 35px;
-               }
-               #logo {
-                   font-size: 190%;
-              }
-               #menu li a {
-                   display: flex;
-                   font-size: 60%;
-                   margin-left: 15px;
-                  }
-           }
+@media screen and (max-width: 375px) {
+    #logo-image {
+     margin-top: 5px;
+     width: 35px;
+    }
+    #logo {
+    font-size: 190%;
+    }
+    #menu li a {
+    display: flex;
+    font-size: 60%;
+    margin-left: 15px;
+    }
+}
 
-           @media screen and (max-width: 327px) {
-
-             #menu li a {
-                 display: flex;
-                 font-size: 55%;
-                 margin-left: 15px;
-              }
-            }
-            
-  
-/* FROM 320PX TO 540PX THERE IS A BACKGROUND LAYOUT SHRINK  */
-
+@media screen and (max-width: 327px) {
+    #menu li a {
+    display: flex;
+    font-size: 55%;
+    margin-left: 15px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     #logo-image {
@@ -702,16 +694,15 @@ ul {
    }
    #ethos-wrapper {
     justify-content: center;
-    align-items: center;
-    /* not centering my content */
-
+    align-items: center; 
    }
    #ethos-img {
     min-height: 300px;
     min-width: 300px;
    }
    .review {
-    min-width: 100%;
+    min-height: 80%;
+    min-width: 90%;
 }
 }
 

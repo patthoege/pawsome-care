@@ -44,7 +44,7 @@ The Pawsome Care website targets pet owners who are looking for trustworthy and 
 ### Communication
  The website has a clear and bold design that makes it easy for visitors to access information. They are clearly marked so users can easily navigate and find what they need without having to search extensively.
 1. The website's sign-up form allows pet owners to submit their information and request pet care services before reading about the different types of services offered. This initial form of communication allows the pet-sitting service to understand the customer's needs and preferences before providing them with appropriate service options.
-  2. Throughout the process of arranging for pet care services, the pet owners and the pet sitting service can communicate with each other via email or phone to discuss details such as scheduling, pricing, and pet care instructions. This ensures effective communication and a smooth process for both parties.
+2. Throughout the process of arranging for pet care services, the pet owners and the pet sitting service can communicate with each other via email or phone to discuss details such as scheduling, pricing, and pet care instructions. This ensures effective communication and a smooth process for both parties.
 
 It should be noted that the website provides information about the different types of services they offer, but the sign-up form is the main means of communication between the pet owner and the pet-sitting service.
 
@@ -72,8 +72,7 @@ This is a CSS stylesheet for a website with a fixed header. The font family used
 The hero section has a video and a text content box with a sign-up button. The animation zooms in on the video.
 
 ### Services
-Below the hero section is a club ethos section, divided into two columns. The left-side is an image and on the right side is the list of services and its description.
-
+Below the hero section is a club ethos section, divided into two columns. The left side is an image and on the right side is the list of services and its description.
 The font size and color scheme are consistent throughout the website, with white text on a dark, transparent background. The color scheme is primarily black, white, and shades of yellow. There are hover effects on some elements, such as the menu items and the button in the hero section.
 
 
@@ -87,7 +86,11 @@ The font size and color scheme are consistent throughout the website, with white
 
 
 ## Getting Started
-To use the website, simply navigate to the homepage and start browsing to see what kind of services from our private professional sitter are available to book. You can sign-up for the form by providing the username, email, phone number, location, availability, type of pet and specific instructions. When we find you a pet sitter who meets your pet's need, you'll receive an email confirmation and will proceed with the communication through Whatsapp to discuss further points from your pet's needs.
+To use the website, simply navigate to the homepage and start browsing to see what kind of services from our private professional sitter are available to book. You can sign-up for the form by providing the username, email, phone number, location, type of pet and specific instructions. When we find you a pet sitter who meets your pet's needs, you'll receive an email confirmation and will proceed with the communication through Whatsapp to discuss further points from your pet's needs.
+
+To utilize our website, navigate to the homepage and begin browsing to discover the services provided by our private professional sitters that are available for booking. Signing up is easy - simply provide your username, email, phone number, location, type of pet, and any specific instructions. Once we have found a pet sitter that meets your requirements, you will receive an email confirmation and can continue communication through Whatsapp to further discuss your pet's needs.
+
+Pawsome Care offers its own pet-sitting services with a team of professional and specialized sitters who can meet the various needs of customers' pets. Customers can browse the company's website to see what types of services are available to book. To sign up, customers can provide their username, email, phone number, location, type of pet, and any specific instructions. Once a suitable pet sitter has been found, customers will receive an email confirmation and can proceed with communication via WhatsApp to discuss further details about their pet's needs.
 
 
 ### Features
