@@ -455,9 +455,9 @@ ul {
  .list a {
     text-align: center;
     text-decoration: none;
-    color: inherit;
+    color: #252525;;
     font-size: 18px;
-    opacity: 0.65;
+    opacity: 0.80;
  }
 
  .list a:hover {
