@@ -30,9 +30,10 @@ You can view the live site here - <a href="https://patthoege.github.io/pawsome-c
          * [Footer](<#footer>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
-   *  [Validator Testing](<#validator-testing>)
+   *  [Validator testing](<#validator-testing>)
    * [Manual testing](<#manual-testing>)
    * [Lighthouse testing](<#lighthouse-testing>)
+   * [Experte testing](<#experte-testing>)
    * [Wave testing](<#wave-testing>)
    * [Bugs](<#bugs>)
 * [**Deployment**](<#deployment>)
@@ -45,16 +46,16 @@ You can view the live site here - <a href="https://patthoege.github.io/pawsome-c
 
 ## UX
 
-### Site Purpose:
-The purpose of Pawsome Care website is to provide a platform for pet owners to connect with local pet sitters to find a reliable and trustworthy person to take care of their pets while they are away.
+### Site Purpose
+The purpose of Pawsome Care website is to provide a platform for pet owners to connect with local pet sitters to find a reliable and trustworthy person to take care of their pets while they are away.<br /><br />
 [Back to top](<#table-of-contents>)
 
-### Site Goal:
-The goal of the website is to simplify the process of finding a pet sitter and ensure that pet owners have peace of mind knowing that their pets are in good hands.
+### Site Goal
+The goal of the website is to simplify the process of finding a pet sitter and ensure that pet owners have peace of mind knowing that their pets are in good hands.<br /><br />
 [Back to top](<#table-of-contents>)
 
-### Audience:
-The Pawsome Care website targets pet owners who are looking for trustworthy and reliable pet sitters to take care of their pets while they are away.  This audience includes individuals who may be going on vacation, busy professionals, frequent travelers, or anyone who needs assistance with pet care.
+### Audience
+The Pawsome Care website targets pet owners who are looking for trustworthy and reliable pet sitters to take care of their pets while they are away.  This audience includes individuals who may be going on vacation, busy professionals, frequent travelers, or anyone who needs assistance with pet care.<br /><br />
 [Back to top](<#table-of-contents>)
 
 ### Communication
@@ -62,7 +63,7 @@ The Pawsome Care website targets pet owners who are looking for trustworthy and 
 1. The website's sign-up form allows pet owners to submit their information and request pet care services before reading about the different types of services offered. This initial form of communication allows the pet-sitting service to understand the customer's needs and preferences before providing them with appropriate service options.
 2. Throughout the process of arranging for pet care services, the pet owners and the pet sitting service can communicate with each other via email or phone to discuss details such as scheduling, pricing, and pet care instructions. This ensures effective communication and a smooth process for both parties.
 
-It should be noted that the website provides information about the different types of services they offer, but the sign-up form is the main means of communication between the pet owner and the pet-sitting service.
+It should be noted that the website provides information about the different types of services they offer, but the sign-up form is the main means of communication between the pet owner and the pet-sitting service.<br /><br />
 [Back to top](<#table-of-contents>)
 
 ### Current User Goals
@@ -89,12 +90,12 @@ An additional effect was used over the navigation bar and reserved only for the 
 
 [Back to top](<#table-of-contents>)
 
-### Typography:
-Poppins font style was selected for the main heading on each of the pages, accompanied by Source Sans 3 respectively if the Poppins font can't be loaded. 
+### Typography
+Poppins font style was selected for the main heading on each of the pages, accompanied by Source Sans 3 respectively if the Poppins font can't be loaded.<br /><br /> 
 [Back to top](<#table-of-contents>)
 
-### Imagery:
-The website features imagery, including the Hero video, that was sourced from free vector photo platforms. These images have been credited in the Credits section of the website. The purpose of using these images was to find the perfect introductory image that conveys to the user the purpose of the site. The images were sourced through a Google search to ensure their relevance and effectiveness in communicating the site's purpose.
+### Imagery
+The website features imagery, including the Hero video, that was sourced from free vector photo platforms. These images have been credited in the Credits section of the website. The purpose of using these images was to find the perfect introductory image that conveys to the user the purpose of the site. The images were sourced through a Google search to ensure their relevance and effectiveness in communicating the site's purpose.<br /><br />
 [Back to top](<#table-of-contents>)
 
 ## Features
@@ -181,25 +182,64 @@ The sign-up page is easily accessible to users through various means. Users can 
 # Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides the responsive navigation bar for the website.
-* [Figma](https://www.figma.com/) - Used to create the design prototype.
-* [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
-* [Favicon](https://favicon.io/) - Used to create the favicon.
-* [Compressor](https://compressor.io/) - Used to compress the images.
-* [Gitpod](https://www.gitpod.io/#get-started) - Used to create and edit the website.
-* [GitHub](https://github.com/) - Used to host and deploy the website.
-* [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
+* [Google Fonts](https://fonts.google.com/) - Provides the font styling for the website.
+* [Fontawesome](https://fontawesome.com/icons) - Used to create the favicon.
+* [Favicon](https://favicon.io/) - Used to create the favicon logo.
+* [Freepik](https://www.freepik.com/) - Provides the imagery and video for the website.
+* [Pexels](https://www.pexels.com/) - Provides the imagery for the website.
+* [Gitpod](https://www.gitpod.io/) - Used to create and edit the website.
+* [Visual Studio Code - VSCode](https://code.visualstudio.com/) - Local editor to edit the website.
+* [GitHub](https://github.com/patthoege/pawsome-care) - Used to host and deploy the website.
 
 [Back to top](<#table-of-contents>)
 
 ## Testing
 * ## Code Validation
 
-    * The Reflection website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/)and  the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below.
+    * Pawsome Care website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below. 
+
+### Validator Testing
+<details><summary><b>W3C HTML Validator Image</b></summary>
+
+![W3C HTML Validator image](assets/readme-img/pawsome-html-val.png)
+</details><br />
+
+<details><summary><b>W3C CSS Validator Image</b></summary>
+
+![W3C CSS Validator image](assets/readme-img/pawsome-css-val.png)
+</details><br />
 
 [Back to top](<#table-of-contents>)
 
-### Validator Testing
+### Lighthouse Testing
+
+<details><summary><b>Lighthouse Test Image</b></summary>
+
+![W3C CSS Validator image](assets/readme-img/lighthouse-report.png)
+<a href="https://www.webpagetest.org/" target="_blank" rel="noopener">Lighthouse Page</a>
+</details><br />
+
+[Back to top](<#table-of-contents>)
+
+### Experte Testing
+<details><summary><b>Experte Accessibility Report</b></summary>
+
+![Accessibility image](assets/readme-img/pawsome-accessibility.png)
+
+The current testing has identified that there is one element failing due to low-contrast text, which can be difficult or impossible for many users to read. Specifically, the copyright icon from Pawsome Care 2023 in the footer section is intentionally designed to be in a lighter color, which is causing the failure in the testing. This highlights the importance of finding a balance between design aesthetics and accessibility to ensure that all users can effectively use and engage with the website. As you can see it is still clearly visible on my footer website.
+
+<a href="https://www.experte.com/accessibility" target="_blank" rel="noopener">Experte Accessibility Page</a>
+</details><br />
+
+[Back to top](<#table-of-contents>)
+
+### Wave Testing
+<details><summary><b>Wave Evaluation Tools Report</b></summary>
+
+![Accessibility image](assets/readme-img/pawsome-wave-report.png)
+<a href="https://wave.webaim.org/" target="_blank" rel="noopener">Webaiam Page</a>
+</details><br />
+
 [Back to top](<#table-of-contents>)
 
 ## Bugs
