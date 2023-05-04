@@ -16,6 +16,7 @@ You can view the live site here - <a href="https://patthoege.github.io/pawsome-c
     * [Current User Goals](#current-user-goals)
     * [New User Goals](#new-user-goals)
 * [**Design**](<#design>)
+  + [Wireframes](#wireframes)
   + [Color Scheme](#color-scheme)
   + [Typography](#typography)
   + [Imagery](#imagery)
@@ -47,7 +48,7 @@ You can view the live site here - <a href="https://patthoege.github.io/pawsome-c
 ## UX
 
 ### Site Purpose
-The purpose of Pawsome Care website is to provide a platform for pet owners to connect with local pet sitters to find a reliable and trustworthy person to take care of their pets while they are away.<br /><br />
+The purpose of the Pawsome Care website is to provide a platform for pet owners to connect with local pet sitters to find a reliable and trustworthy person to take care of their pets while they are away.<br /><br />
 [Back to top](<#table-of-contents>)
 
 ### Site Goal
@@ -81,6 +82,9 @@ It should be noted that the website provides information about the different typ
 [Back to top](<#table-of-contents>)
 
 ## Design
+
+### Wireframes
+The wireframes for the project can be found [here.](/assets/readme-img/PawsomeCare%3AWireframe%3AProject1.pdf)
 
 ### Color Scheme
 The color palette was created with the thought to provide as much simplicity as possible, without feeling overwhelming. Most of the color is primarily provided by the supporting images displayed across the site. However, text & backgrounds were generated in a white and subtle gradient light yellow. The combination of the two does not overwhelm the user.
@@ -117,7 +121,7 @@ The main section of the website features a captivating video that zooms in on th
 <details><summary><b>Desktop Home Image</b></summary>
 
 ![Nav Bar image](assets/readme-img/landing-page.png)
-</details>
+</details><br />
 
 
 [Back to top](<#table-of-contents>)
@@ -130,7 +134,7 @@ The section immediately following the hero section on the website is the club et
 <details><summary><b>Desktop Services Image</b></summary>
 
 ![Nav Bar image](assets/readme-img/services.png)
-</details>
+</details><br />
 
 
 [Back to top](<#table-of-contents>)
@@ -143,7 +147,7 @@ The testimonials section features a gradient background color and is comprised o
 <details><summary><b>Desktop Testimonials Image</b></summary>
 
 ![Nav Bar image](assets/readme-img/testimonials.png)
-</details>
+</details><br />
 
 
 [Back to top](<#table-of-contents>)
@@ -154,26 +158,29 @@ The sign-up page is easily accessible to users through various means. Users can 
 <details><summary><b>Desktop Sign Up Page Image</b></summary>
 
 ![Nav Bar image](assets/readme-img/sign-up-page.png)
-</details>
+</details><br />
 
 
 [Back to top](<#table-of-contents>)
 
 ### Thank You Page
+After completing the sign-up process, users will be directed to the thank you page, where they will see a content text box thanking them for choosing Pawsome Care. This page serves as confirmation that their registration was successful and that they will soon be able to enjoy the benefits of our platform. The thank you page is a small but important detail that shows our commitment to customer satisfaction and appreciation for their trust in our services.
+
 <details><summary><b>Desktop Thank You Image</b></summary>
 
 ![Nav Bar image](assets/readme-img/thank-you.png)
-</details>
+</details><br />
 
 
 [Back to top](<#table-of-contents>)
 
 ### Footer 
+At the bottom of the website, you can find the footer section which includes four social network icons for Whatsapp, Facebook, Github, and Linkedin. Below the social network icons, you can find links to the home, services, and sign-up form pages. Finally, at the bottom of the footer, you can find the copyright information.
 
 <details><summary><b>Desktop Footer Image</b></summary>
 
 ![Nav Bar image](assets/readme-img/footer.png)
-</details>
+</details><br />
 
 
 [Back to top](<#table-of-contents>)
@@ -182,11 +189,6 @@ The sign-up page is easily accessible to users through various means. Users can 
 # Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
-* [Google Fonts](https://fonts.google.com/) - Provides the font styling for the website.
-* [Fontawesome](https://fontawesome.com/icons) - Used to create the favicon.
-* [Favicon](https://favicon.io/) - Used to create the favicon logo.
-* [Freepik](https://www.freepik.com/) - Provides the imagery and video for the website.
-* [Pexels](https://www.pexels.com/) - Provides the imagery for the website.
 * [Gitpod](https://www.gitpod.io/) - Used to create and edit the website.
 * [Visual Studio Code - VSCode](https://code.visualstudio.com/) - Local editor to edit the website.
 * [GitHub](https://github.com/patthoege/pawsome-care) - Used to host and deploy the website.
@@ -196,7 +198,7 @@ The sign-up page is easily accessible to users through various means. Users can 
 ## Testing
 * ## Code Validation
 
-    * Pawsome Care website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below. 
+    * The Pawsome Care website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below. 
 
 ### Validator Testing
 <details><summary><b>W3C HTML Validator Image</b></summary>
@@ -226,8 +228,6 @@ The sign-up page is easily accessible to users through various means. Users can 
 
 ![Accessibility image](assets/readme-img/pawsome-accessibility.png)
 
-The current testing has identified that there is one element failing due to low-contrast text, which can be difficult or impossible for many users to read. Specifically, the copyright icon from Pawsome Care 2023 in the footer section is intentionally designed to be in a lighter color, which is causing the failure in the testing. This highlights the importance of finding a balance between design aesthetics and accessibility to ensure that all users can effectively use and engage with the website. As you can see it is still clearly visible on my footer website.
-
 <a href="https://www.experte.com/accessibility" target="_blank" rel="noopener">Experte Accessibility Page</a>
 </details><br />
 
@@ -242,14 +242,51 @@ The current testing has identified that there is one element failing due to low-
 
 [Back to top](<#table-of-contents>)
 
-## Bugs
+# Bugs
+
+## Fixed bugs
+- The images in the testimonial section were not visible on the deployed website due to an issue with the CSS style sheet. The Slack Community help me discover that the image paths needed to be relative to properly display it.
+- During the validation of the signup.html page, errors were triggered on the HTML validator.FORM element can't be nested. Before, I was attempting to set an action attribute for the thank you page to the button form within the sign-up form. However, I realized that I could place the action attribute to the first register form to resolve the issue.
+- After the process of making my website responsive to small screens, I encountered an issue where horizontal scrolling caused a noticeable white space. This problem was traced to the margin of the image in the ethos section, which was responsible for the layout discrepancy. With the assistance and help of my educator, the issue was resolved by deleting it.
+
+## Deployment
+
+This project was deployed via GitHub Pages and the Gitpod browser, used as a development environment. From here I could commit and push my changes throughout the project.
+
+Steps I took to deploy my website;
+
+- Go to the repository for pawsome-care 
+- Click the Settings tab and locate the Pages tab
+- Select to deploy from main branch
+- A few minutes later, upon refreshing the page, my site was live. <br />
+
 [Back to top](<#table-of-contents>)
 
 
-# Contributors
-This website was created by **Patricia Hoege** as a project for my first project based on HTML and CSS Language. 
+# Credits
+### Content
+
+* The font came from [Google Fonts](https://fonts.google.com/)
+* The color palette was displayed by [Coolors](https://coolors.co/)
+* The icons came from [Font Awesome](https://fontawesome.com/)
+* The logo icon came from [Favicon](https://favicon.io/) 
+* The responsive preview image at the top of the README.md came from  [AmIResponsive?](https://ui.dev/amiresponsive?)
+* The text content came with some help from [ChatGPT](https://openai.com/blog/chatgpt) 
+
+### Media
+* The images came from [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/).
 
 
-# Conclusion
-This is a simple and user-friendly pet-sitting website that offers a variety of features to make the process of finding and hiring a pet sitter easy and convenient for pet owners. The website is built using modern web technologies and can be easily customized to suit your specific needs.
+[Back to top](<#table-of-contents>)
+
+# Acknowledgments
+This website was created as part of my Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/) and serves as my Portfolio Project 1. I am grateful to acknowledge my mentor [Martina Terlević](https://www.linkedin.com/in/martinaterlevic/), the Slack community, and the entire team at the Code Institute for their assistance and support throughout this process. Pawsome Care has been an invaluable learning experience for me, enabling me to gain greater confidence in my abilities to design, build, test and deploy a fully functional website.
+
+Patricia Höge 2023.
+
+[Back to top](<#table-of-contents>)
+
+
+
+#
 
