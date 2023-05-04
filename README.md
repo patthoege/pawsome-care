@@ -1,56 +1,83 @@
-# PawsomeCare is awesome care
-[View the live project here](https://patthoege.github.io/pawsome-care/)
+# Pawsome Care is awesome care
 
-**PawsomeCare** is a website designed to connect pet owners with local pet sitters. Pet owners can sign up and submit their information and choose one that meets their needs. Sitters can create a profile, set their availability, and communicate with potential clients through the website.
+**Pawsome Care** is an online platform that serves as an intermediary between pet owners and local pet sitters. We offer a user-friendly interface for pet owners to sign up and submit their details. Based on the provided information, we connect the pet owner with our most suitable and reliable pet sitter. At PawsomeCare, we understand the importance of providing quality services that make pets feel comfortable and secure. Therefore, we ensure that our pet sitters are experienced and well-qualified individuals who are passionate about caring for animals. By providing a safe and nurturing environment for pets, PawsomeCare aims to enhance the overall well-being of pets and their owners alike.
+
+![Pawsome Care's responsive design](assets/readme-img/responsive-review.png)
+
+You can view the live site here - <a href="https://patthoege.github.io/pawsome-care/" target="_blank" rel="noopener">Pawsome Care</a>
 
 ## Table of Contents
-+ [UX](#ux "UX")
-  + [Site Purpose](#site-purpose "Site Purpose")
-  + [Site Goal](#site-goal "Site Goal")
-  + [Audience](#audience "Audience")
-  + [Communication] (#communication "Communication")
-  + [Current User Goals](#current-user-goals "Current User Goals")
-  + [New User Goals](#new-user-goals "New User Goals")
-+ [Design](#design "Design")
-  + [Color Scheme](#colour-scheme "Color Scheme")
-  + [Typography](#typography "Typography")
-  + [Imagery](#imagery "Imagery")
-+ [Features](#features "Features")
-  + [Existing Features](#existing-features "Existing Features")
-+ [Testing] (#testing "Testing")
-  + [Validator Testing] (#validator-testing "Validator Testing")
-  + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
-+ [Technologies Used](#technologies-used "Technologies Used")
-  + [Main Languages Used](#main-languages-used "Main Languages Used")
-  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
-+ [Deployment](#deployment "Deployment")
-+ [Credits](#credits "Credits")
-  + [Content](#content "Content")
-  + [Media](#media "Media")
+
+* [**UX**](<#user-experience-ux>)
+    * [Site Purpose](#site-purpose)
+    * [Site Goal](#site-goal)
+    * [Audience](#audience)
+    * [Communication](#communication)
+    * [Current User Goals](#current-user-goals)
+    * [New User Goals](#new-user-goals)
+* [**Design**](<#design>)
+  + [Color Scheme](#color-scheme)
+  + [Typography](#typography)
+  + [Imagery](#imagery)
+* [**Features**](<#features>)
+    * [**Home**](<#navigation-menu>)
+         * [Navigation Menu](<#navigation-menu>)
+         * [Home](<#home>)
+         * [Services](<#services>)
+         * [Testimonials](<#testimonials>)
+         * [Sign Up Page](<#contact>)
+         * [Thank You Page](<#contact>)
+         * [Footer](<#footer>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+   *  [Validator Testing](<#validator-testing>)
+   * [Manual testing](<#manual-testing>)
+   * [Lighthouse testing](<#lighthouse-testing>)
+   * [Wave testing](<#wave-testing>)
+   * [Bugs](<#bugs>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgments**](<#acknowledgements>)
+
 
 
 ## UX
 
 ### Site Purpose:
 The purpose of Pawsome Care website is to provide a platform for pet owners to connect with local pet sitters to find a reliable and trustworthy person to take care of their pets while they are away.
-
+[Back to top](<#table-of-contents>)
 
 ### Site Goal:
-The goal of the website is to simplify the process of finding a pet sitter and ensure that pet owners have peace of mind knowing that their pets are in good hands. Additionally, the website aims to help local pet sitters find new clients and grow their businesses.
+The goal of the website is to simplify the process of finding a pet sitter and ensure that pet owners have peace of mind knowing that their pets are in good hands.
+[Back to top](<#table-of-contents>)
 
 ### Audience:
 The Pawsome Care website targets pet owners who are looking for trustworthy and reliable pet sitters to take care of their pets while they are away.  This audience includes individuals who may be going on vacation, busy professionals, frequent travelers, or anyone who needs assistance with pet care.
+[Back to top](<#table-of-contents>)
 
 ### Communication
- The website has a clear and bold design that makes it easy for visitors to access information. They are clearly marked so users can easily navigate and find what they need without having to search extensively.
+ The website has a clear and bold design that makes it easy for visitors to access information. They are marked so users can easily navigate and find what they need without having to search extensively.
 1. The website's sign-up form allows pet owners to submit their information and request pet care services before reading about the different types of services offered. This initial form of communication allows the pet-sitting service to understand the customer's needs and preferences before providing them with appropriate service options.
 2. Throughout the process of arranging for pet care services, the pet owners and the pet sitting service can communicate with each other via email or phone to discuss details such as scheduling, pricing, and pet care instructions. This ensures effective communication and a smooth process for both parties.
 
 It should be noted that the website provides information about the different types of services they offer, but the sign-up form is the main means of communication between the pet owner and the pet-sitting service.
+[Back to top](<#table-of-contents>)
+
+### Current User Goals
+1. The primary goal for current users of Pawsome Care is to provide them with high-quality and reliable pet-sitting services that meet their needs and expectations.
+2. Other goals may include providing personalized and tailored services, ensuring the safety and well-being of pets, and building a trustworthy relationship between pet owners and pet sitters.
+3. Ultimately, the goal is to create a positive experience for both pet owners and pet sitters and foster a sense of community within the platform.
+
+[Back to top](<#table-of-contents>)
 
 ### New User Goals
-1. Easily navigate the site and clearly understand the information provided.
-2. Be captivated by a visually striking design that captures their immediate interest and keeps them engaged on the site.
+1. The website is designed to be user-friendly and easy to navigate, providing a hassle-free experience for busy pet owners.
+2. Pawsome Care's platform aims to provide a streamlined and easy-to-use service to connect them with experienced and trusted pet sitters in their local area.
+3. By connecting pet owners with trusted and experienced pet sitters, Pawsome Care aims to provide peace of mind for users who may be worried about leaving their pets in someone else's care. 
+
+[Back to top](<#table-of-contents>)
 
 ## Design
 
@@ -58,46 +85,122 @@ It should be noted that the website provides information about the different typ
 The color palette was created with the thought to provide as much simplicity as possible, without feeling overwhelming. Most of the color is primarily provided by the supporting images displayed across the site. However, text & backgrounds were generated in a white and subtle gradient light yellow. The combination of the two does not overwhelm the user.
 An additional effect was used over the navigation bar and reserved only for the hover features over navigation and social links, to bring the user's immediate attention to the fact that there is something there to be clicked such as the menu items and the button in the hero section.
 
+![Color Palate image](assets/readme-img/palette%20.png)
+
+[Back to top](<#table-of-contents>)
+
 ### Typography:
-Poppins font style was selected for the main heading on each of the pages, accompanied by Source Sans 3. 
+Poppins font style was selected for the main heading on each of the pages, accompanied by Source Sans 3 respectively if the Poppins font can't be loaded. 
+[Back to top](<#table-of-contents>)
 
 ### Imagery:
 The website features imagery, including the Hero video, that was sourced from free vector photo platforms. These images have been credited in the Credits section of the website. The purpose of using these images was to find the perfect introductory image that conveys to the user the purpose of the site. The images were sourced through a Google search to ensure their relevance and effectiveness in communicating the site's purpose.
+[Back to top](<#table-of-contents>)
 
 ## Features
 
-### Navigation Bar
-This is a CSS stylesheet for a website with a fixed header. The font family used is Poppins for the body and Source Sans 3 for the headings. The logo is floated to the left and the menu items are to the right. 
+### Navigation Menu
+ Pawsome Care is a three-page website that has 4 navigation links for the user to use. The [Home](index.html) is the default loading page and the subsequent sections of the home page are **Services**, **About Us** and lastly, the **Sign Up** page which leads to a form to submit. The pages are all accessible primarily from the navigation menu however the user simply has to scroll down the website, and they will visit these sections in the order above. The CSS stylesheet for a website with a fixed header. The logo is floated to the left and the menu items are to the right.  
 
-The hero section has a video and a text content box with a sign-up button. The animation zooms in on the video.
+<details><summary><b>Desktop Navigation Bar Image</b></summary>
+
+![Nav Bar image](assets/readme-img/nav-bar.png)
+</details><br />
+
+
+[Back to top](<#table-of-contents>)
+
+### Home
+The main section of the website features a captivating video that zooms in on the subject to further clarify to the user that this website is about pet-sitting and in the center there is a catchy and appealing text content box with a simple yet effective button that encourages the user to learn more. Clicking this button the user will be directed to the Sign Up page.
+
+<details><summary><b>Desktop Home Image</b></summary>
+
+![Nav Bar image](assets/readme-img/landing-page.png)
+</details>
+
+
+[Back to top](<#table-of-contents>)
+
+ 
 
 ### Services
-Below the hero section is a club ethos section, divided into two columns. The left side is an image and on the right side is the list of services and its description.
-The font size and color scheme are consistent throughout the website, with white text on a dark, transparent background. The color scheme is primarily black, white, and shades of yellow. There are hover effects on some elements, such as the menu items and the button in the hero section.
+The section immediately following the hero section on the website is the club ethos section, which provides a detailed overview of the services offered. It is divided into two columns, with an image on the left and a list of services and their descriptions on the right. The font size and color scheme are consistent throughout the website, with white text on a dark, transparent background. The color scheme is primarily black, white, and shades of yellow. 
+
+<details><summary><b>Desktop Services Image</b></summary>
+
+![Nav Bar image](assets/readme-img/services.png)
+</details>
 
 
-### Testimonies
+[Back to top](<#table-of-contents>)
 
 
+### Testimonials
+
+The testimonials section features a gradient background color and is comprised of a brief paragraph about the website. Below the paragraph, there are three images placed next to each other with some space in between. When the user hovers over each image, there are hover effects such as the menu items. The purpose of this section is to showcase positive reviews from satisfied customers. 
+
+<details><summary><b>Desktop Testimonials Image</b></summary>
+
+![Nav Bar image](assets/readme-img/testimonials.png)
+</details>
 
 
+[Back to top](<#table-of-contents>)
+
+### Sign Up Form
+The sign-up page is easily accessible to users through various means. Users can access the sign-up form by clicking the "Sign Up Now" button on the hero video landing page, as well as through the navigation bar items. The form can also be found in the footer section of the website. The user is directed to the sign-up page, where they can easily provide their details such as username, email, phone number, location, type of pet, and any specific instructions through a simple form.
+
+<details><summary><b>Desktop Sign Up Page Image</b></summary>
+
+![Nav Bar image](assets/readme-img/sign-up-page.png)
+</details>
 
 
+[Back to top](<#table-of-contents>)
+
+### Thank You Page
+<details><summary><b>Desktop Thank You Image</b></summary>
+
+![Nav Bar image](assets/readme-img/thank-you.png)
+</details>
 
 
-## Getting Started
-To use the website, simply navigate to the homepage and start browsing to see what kind of services from our private professional sitter are available to book. You can sign-up for the form by providing the username, email, phone number, location, type of pet and specific instructions. When we find you a pet sitter who meets your pet's needs, you'll receive an email confirmation and will proceed with the communication through Whatsapp to discuss further points from your pet's needs.
+[Back to top](<#table-of-contents>)
 
-To utilize our website, navigate to the homepage and begin browsing to discover the services provided by our private professional sitters that are available for booking. Signing up is easy - simply provide your username, email, phone number, location, type of pet, and any specific instructions. Once we have found a pet sitter that meets your requirements, you will receive an email confirmation and can continue communication through Whatsapp to further discuss your pet's needs.
+### Footer 
 
-Pawsome Care offers its own pet-sitting services with a team of professional and specialized sitters who can meet the various needs of customers' pets. Customers can browse the company's website to see what types of services are available to book. To sign up, customers can provide their username, email, phone number, location, type of pet, and any specific instructions. Once a suitable pet sitter has been found, customers will receive an email confirmation and can proceed with communication via WhatsApp to discuss further details about their pet's needs.
+<details><summary><b>Desktop Footer Image</b></summary>
+
+![Nav Bar image](assets/readme-img/footer.png)
+</details>
 
 
-### Features
-* Messaging System: Pet owners can send messages to sitters through emails or Whatsapp to discuss their pet's needs and arrange a meeting.
+[Back to top](<#table-of-contents>)
+
 
 # Technologies Used
-The website is built using HTML and CSS on the front end. 
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides the responsive navigation bar for the website.
+* [Figma](https://www.figma.com/) - Used to create the design prototype.
+* [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
+* [Favicon](https://favicon.io/) - Used to create the favicon.
+* [Compressor](https://compressor.io/) - Used to compress the images.
+* [Gitpod](https://www.gitpod.io/#get-started) - Used to create and edit the website.
+* [GitHub](https://github.com/) - Used to host and deploy the website.
+* [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
+
+[Back to top](<#table-of-contents>)
+
+## Testing
+[Back to top](<#table-of-contents>)
+
+### Validator Testing
+[Back to top](<#table-of-contents>)
+
+## Bugs
+[Back to top](<#table-of-contents>)
+
 
 # Contributors
 This website was created by **Patricia Hoege** as a project for my first project based on HTML and CSS Language. 
