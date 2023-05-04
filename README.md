@@ -193,6 +193,10 @@ The sign-up page is easily accessible to users through various means. Users can 
 [Back to top](<#table-of-contents>)
 
 ## Testing
+* ## Code Validation
+
+    * The Reflection website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/)and  the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below.
+
 [Back to top](<#table-of-contents>)
 
 ### Validator Testing
