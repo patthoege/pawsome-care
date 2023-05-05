@@ -85,7 +85,7 @@ It should be noted that the website provides information about the different typ
 
 ### Wireframes
 
-The wireframes for the project can be found [here.](/assets/readme-img/PawsomeCare%3AWireframe%3AProject1.pdf)
+The wireframes for the project can be found [here.](/assets/readme-img/PawsomeCare%3AWireframe%3AProject1..pdf)
 
 ### Color Scheme
 The color palette was created with the thought to provide as much simplicity as possible, without feeling overwhelming. Most of the color is primarily provided by the supporting images displayed across the site. However, text & backgrounds were generated in a white and subtle gradient light yellow. The combination of the two does not overwhelm the user.
@@ -192,7 +192,8 @@ At the bottom of the website, you can find the footer section which includes fou
 * [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
 * [Gitpod](https://www.gitpod.io/) - Used to create and edit the website.
 * [Visual Studio Code - VSCode](https://code.visualstudio.com/) - Local editor to edit the website.
-* [GitHub](https://github.com/patthoege/pawsome-care) - Used to host and deploy the website.
+* [GitHub](https://github.com/patthoege/pawsome-care) - Used to host and deploy the website. 
+* [Balsamiq](https://balsamiq.com/ ) - Used to create the wireframes.
 
 [Back to top](<#table-of-contents>)
 
@@ -243,6 +244,13 @@ At the bottom of the website, you can find the footer section which includes fou
 </details><br />
 
 [Back to top](<#table-of-contents>)
+
+* ## Browser Compatibility
+    * The website has had manual and responsive tests conducted on the below browsers.
+        * Google Chrome
+        * Mozilla Firefox
+        * Safari
+        <br /><br />
 
 # Bugs
 
