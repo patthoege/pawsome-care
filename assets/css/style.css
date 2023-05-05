@@ -482,6 +482,11 @@ ul {
     color: #252525;
  }
 
+ .copyright span {
+    font-size: 15px;
+    color: #252525;
+ }
+
   /* BREAKPOINTS*/
 
 @media screen and (max-width: 1655px) {

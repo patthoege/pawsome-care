@@ -272,7 +272,8 @@ Steps I took to deploy my website;
 * The color palette was displayed by [Coolors](https://coolors.co/)
 * The icons came from [Font Awesome](https://fontawesome.com/)
 * The logo icon came from [Favicon](https://favicon.io/) 
-* The responsive preview image at the top of the README.md came from  [AmIResponsive?](https://ui.dev/amiresponsive?)
+* Converter image to webp format for better performance from [Convertio](https://convertio.co/) 
+* The responsive preview image at the top of the README.md came from [AmIResponsive?](https://ui.dev/amiresponsive?)
 * The text content came with some help from [ChatGPT](https://openai.com/blog/chatgpt) 
 
 ### Media
