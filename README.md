@@ -21,14 +21,14 @@ You can view the live site here - <a href="https://patthoege.github.io/pawsome-c
   + [Typography](#typography)
   + [Imagery](#imagery)
 * [**Features**](<#features>)
-    * [**Home**](<#navigation-menu>)
-         * [Navigation Menu](<#navigation-menu>)
-         * [Home](<#home>)
-         * [Services](<#services>)
-         * [Testimonials](<#testimonials>)
-         * [Sign Up Page](<#contact>)
-         * [Thank You Page](<#contact>)
-         * [Footer](<#footer>)
+    
+    * [Navigation Menu](<#navigation-menu>)
+    * [Home](<#home>)
+    * [Services](<#services>)
+    * [Testimonials](<#testimonials>)
+    * [Sign Up Page](<#contact>)
+    * [Thank You Page](<#contact>)
+    * [Footer](<#footer>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
    *  [Validator testing](<#validator-testing>)
@@ -84,6 +84,7 @@ It should be noted that the website provides information about the different typ
 ## Design
 
 ### Wireframes
+
 The wireframes for the project can be found [here.](/assets/readme-img/PawsomeCare%3AWireframe%3AProject1.pdf)
 
 ### Color Scheme
@@ -236,7 +237,8 @@ At the bottom of the website, you can find the footer section which includes fou
 ### Wave Testing
 <details><summary><b>Wave Evaluation Tools Report</b></summary>
 
-![Accessibility image](assets/readme-img/pawsome-wave-report.png)
+![Wave testing image](assets/readme-img/pawsome-wave-report.png)
+
 <a href="https://wave.webaim.org/" target="_blank" rel="noopener">Webaiam Page</a>
 </details><br />
 

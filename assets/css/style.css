@@ -189,7 +189,7 @@ ul {
   }
 
 #ethos-img {
-    background: url(../images/ethos-image.jpg);
+    background: url(../images/ethos-image.webp);
     background-position: center;
     background-size: contain; 
     background-repeat: no-repeat; 
@@ -304,7 +304,7 @@ ul {
     flex-wrap: wrap;  
     align-items: center; 
     justify-content: center;
-    background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
+    background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -376,7 +376,7 @@ ul {
   /* THANK YOU PAGE */
 
   .container {
-    background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.jpg);
+    background: url(../images/woman-using-laptop-and-drinking-coffee-near-dog.webp);
     width: 100%;
     background-size: cover;
     background-position: center;
