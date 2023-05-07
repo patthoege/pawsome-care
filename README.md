@@ -96,7 +96,7 @@ An additional effect was used over the navigation bar and reserved only for the 
 [Back to top](<#table-of-contents>)
 
 ### Typography
-Poppins font style was selected for the main heading on each of the pages, accompanied by Source Sans 3 respectively if the Poppins font can't be loaded.<br /><br /> 
+Poppins font style was selected for the main heading on each of the pages, accompanied by Source Sans 3. Sans Serif, if the mentioned fonts can't be loaded.<br /><br /> 
 [Back to top](<#table-of-contents>)
 
 ### Imagery
