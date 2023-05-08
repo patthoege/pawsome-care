@@ -216,10 +216,22 @@ At the bottom of the website, you can find the footer section which includes fou
 
 ### Lighthouse Testing
 
-<details><summary><b>Lighthouse Test Image</b></summary>
+<details><summary><b>Lighthouse Test Index Image</b></summary>
 
-![W3C CSS Validator image](assets/readme-img/lighthouse-report.png)
-<a href="https://www.webpagetest.org/" target="_blank" rel="noopener">Lighthouse Page</a>
+![Lighthouse](assets/readme-img/lighthouse-index.png)
+
+</details><br />
+
+<details><summary><b>Lighthouse Test SignUp Image</b></summary>
+
+![Lighthouse](assets/readme-img/lighthouse-signup.png)
+
+</details><br />
+
+<details><summary><b>Lighthouse Test Thank You Image</b></summary>
+
+![Lighthouse](assets/readme-img/lighthouse-thankyoupage.png)
+
 </details><br />
 
 [Back to top](<#table-of-contents>)
