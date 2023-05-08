@@ -88,10 +88,9 @@ It should be noted that the website provides information about the different typ
 The wireframes for the project can be found [here.](/assets/readme-img/PawsomeCare%3AWireframe%3AProject1..pdf)
 
 ### Color Scheme
-The color palette was created with the thought to provide as much simplicity as possible, without feeling overwhelming. Most of the color is primarily provided by the supporting images displayed across the site. However, text & backgrounds were generated in a white and subtle gradient light yellow. The combination of the two does not overwhelm the user.
-An additional effect was used over the navigation bar and reserved only for the hover features over navigation and social links, to bring the user's immediate attention to the fact that there is something there to be clicked such as the menu items and the button in the hero section.
+The color palette was created with the thought to provide as much simplicity as possible, without feeling overwhelming. Most of the color is primarily provided by the supporting images displayed across the site. However, text, headers, icons & backgrounds were generated in white, a subtle touch of satin sheen gold and peach. The combination of the two does not overwhelm the user.
 
-![Color Palate image](assets/readme-img/palette%20.png)
+![Color Palate image](assets/readme-img/palette.png)
 
 [Back to top](<#table-of-contents>)
 
@@ -165,7 +164,7 @@ The sign-up page is easily accessible to users through various means. Users can 
 [Back to top](<#table-of-contents>)
 
 ### Thank You Page
-After completing the sign-up process, users will be directed to the thank you page, where they will see a content text box thanking them for choosing Pawsome Care. This page serves as confirmation that their registration was successful and that they will soon be able to enjoy the benefits of our platform. The thank you page is a small but important detail that shows our commitment to customer satisfaction and appreciation for their trust in our services.
+After completing the sign-up process, users will be directed to the thank you page, where they will see a content text box thanking them for choosing Pawsome Care. In addition to the content, the thank you page also includes a button that allows users to return to the home page. This page serves as confirmation that their registration was successful and that they will soon be able to enjoy the benefits of our platform. The thank you page is a small but important detail that shows our commitment to customer satisfaction and appreciation for their trust in our services.
 
 <details><summary><b>Desktop Thank You Image</b></summary>
 
