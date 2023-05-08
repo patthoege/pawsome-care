@@ -279,7 +279,7 @@ ul {
  }
 
  .review img {
-    height: 360px;
+    min-height: 360px;
     width: 100%;
     margin: 0;
     padding: 0;
