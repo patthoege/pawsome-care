@@ -129,7 +129,7 @@ The main section of the website features a captivating video that zooms in on th
  
 
 ### Services
-The section immediately following the hero section on the website is the club ethos section, which provides a detailed overview of the services offered. It is divided into two columns, with an image on the left and a list of services and their descriptions on the right. The font size and color scheme are consistent throughout the website, with white text on a dark, transparent background. The color scheme is primarily black, white, and shades of yellow. 
+The section immediately following the hero section on the website is the club ethos section, which provides a detailed overview of the services offered. It is divided into two columns, with an image on the left and a list of services and their descriptions on the right. The font size and color scheme are consistent throughout the website, with white text on a dark background. The color scheme is primarily black, white, and satin sheen gold. 
 
 <details><summary><b>Desktop Services Image</b></summary>
 
