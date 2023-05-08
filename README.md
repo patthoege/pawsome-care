@@ -297,6 +297,14 @@ Steps I took to deploy my website;
 ### Media
 * The images came from [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/).
 
+### Frameworks and Content
+* The website layout draws its inspiration from the Love Running Walkthrough project. 
+* <a href="https://www.w3schools.com/">W3 Schools</a> was a source of help in creating the hover image and icons and overlay for the background.
+* The development of my README file was influenced by the guidance provided by <a href="https://github.com/kera-cudmore/readme-examples">Readme Examples</a> as well as by examining the organization of README files from other students, whose work served as a reference for me and to ensure that I didn't overlook any essential details. 
+* The <a href="https://www.youtube.com/watch?v=fYq5PXgSsbE&t=68s">Web Dev Simplified</a> was a very useful resource to learn CSS flex-box.
+* I research on various pet-sitting websites to gain insights into their services and the most critical sections that must be included on my website. During this process, I drew inspiration from the <a href="https://en.pawshake.de/become-a-sitter">Pawshake</a> website and incorporated some of its key service points into my own.
+ 
+
 
 [Back to top](<#table-of-contents>)
 
